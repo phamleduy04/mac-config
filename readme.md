@@ -17,7 +17,7 @@ nano brew-apps.txt
 
 # add packages to brew-apps.txt
 
-xargs brew-apps.txt | xargs brew install
+xargs brew install < brew-apps.txt
 ```
 
 # Install
