@@ -1,0 +1,17 @@
+zoxide
+sshuttle
+starship
+xz
+pyenv
+gnupg
+alt-tab
+brave-browser
+obsidian
+postman
+raycast
+warp
+orbstack
+orcaslicer
+telegram-desktop
+github
+evkey
