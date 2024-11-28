@@ -13,6 +13,10 @@ xcode-select --install
 # Install brew packages
 
 ```bash
+nano brew-apps.txt
+
+# add packages to brew-apps.txt
+
 xargs brew-apps.txt | xargs brew install
 ```
 
