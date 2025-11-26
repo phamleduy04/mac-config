@@ -11,7 +11,12 @@ postman
 raycast
 warp
 orbstack
-orcaslicer
 telegram-desktop
 github
 evkey
+github
+cursor
+scroll-reverser
+stats
+zen
+vesktop

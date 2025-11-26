@@ -3,5 +3,9 @@ ngrok
 nodemon
 npm-check-updates
 pnpm
-yarn
-eslint
+@biomejs/biome
+@anthropic-ai/claude-code
+@kaitranntt/ccs
+ccundo
+claudekit-cli
+repomix

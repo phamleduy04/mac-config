@@ -1,7 +1,7 @@
 # ~/.zshrc
 
 export PATH=$PATH:/usr/local/bin
-
+export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1  # Don't send telemetry data
 #cpp func
 function cpp {
   if [ -z "$1" ]; then
@@ -15,7 +15,7 @@ function cpp {
 #alias
 alias o="open ."
 alias cpp=cpp
-alias gh="cd ~/Documents/GitHub"
+alias dev="cd ~/Documents/GitHub"
 
 #nvm
 source ~/.nvm/nvm.sh
@@ -35,3 +35,14 @@ python3 -V 2>&1 | awk '{print "Using", $1, "(pip: v"$2")"}'
 # zoxide
 eval "$(zoxide init zsh)"
 alias cd="z"
+
+export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
+
+. "$HOME/.local/bin/env"
+
+# bun completions
+[ -s "/Users/dui/.bun/_bun" ] && source "/Users/dui/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

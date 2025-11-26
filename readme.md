@@ -16,13 +16,19 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+## Install nvm
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/HEAD/install.sh | bash
+```
+
+## Install bun
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+
 ## Install brew packages
 
 ```bash
-nano brew-apps.txt
-
-# add packages to brew-apps.txt
-
 xargs brew install < brew-apps.txt
 ```
 
