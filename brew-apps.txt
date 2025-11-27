@@ -14,9 +14,15 @@ orbstack
 telegram-desktop
 github
 evkey
-github
 cursor
 scroll-reverser
 stats
 zen
 vesktop
+spotify
+cap
+gh
+hiddenbar
+linear-linear
+messenger
+rectangle
