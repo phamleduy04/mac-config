@@ -37,3 +37,5 @@ xargs brew install < brew-apps.txt
 ```bash
 xargs npm install -g < npm-deps.txt
 ```
+
+messenger appstore version: `Version 520.0.0 (777169672)`
