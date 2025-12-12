@@ -9,7 +9,7 @@ brave-browser
 obsidian
 postman
 raycast
-warp
+ghostty
 orbstack
 telegram-desktop
 github
@@ -27,3 +27,6 @@ linear-linear
 messenger
 rectangle
 openkey
+eza
+zsh-autosuggestions
+zsh-syntax-highlighting
