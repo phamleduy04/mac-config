@@ -1,0 +1,12 @@
+[user]
+    name = <name>
+    email = <email>
+    signingkey = <singing>
+[gpg]
+    program = /opt/homebrew/bin/gpg
+[commit]
+    gpgsign = true
+[tag]
+    gpgsign = true
+[pull]
+    rebase = true
